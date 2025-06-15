@@ -10,9 +10,9 @@ export const translations = {
   en: {
     nav: {
       home: 'Home',
-      theater: 'Theater',
-      music: 'Music',
-      blog: 'Blog',
+      theater: 'Theoria',
+      music: 'Praxis',
+      blog: 'Poetika',
       about: 'About'
     },
     home: {
@@ -23,15 +23,15 @@ export const translations = {
       viewAll: 'View All'
     },
     theater: {
-      title: 'Theater Portfolio',
+      title: 'Theoria Portfolio',
       description: 'Exploring stories through performance'
     },
     music: {
-      title: 'Music Portfolio', 
+      title: 'Praxis Portfolio', 
       description: 'Creating melodies and rhythms'
     },
     blog: {
-      title: 'Blog',
+      title: 'Poetika',
       description: 'Thoughts and reflections on art and life',
       readMore: 'Read More',
       publishedOn: 'Published on'
@@ -44,9 +44,9 @@ export const translations = {
   tr: {
     nav: {
       home: 'Ana Sayfa',
-      theater: 'Tiyatro',
-      music: 'Müzik',
-      blog: 'Blog',
+      theater: 'Theoria',
+      music: 'Praxis',
+      blog: 'Poetika',
       about: 'Hakkında'
     },
     home: {
@@ -57,15 +57,15 @@ export const translations = {
       viewAll: 'Tümünü Gör'
     },
     theater: {
-      title: 'Tiyatro Portföyü',
+      title: 'Theoria Portföyü',
       description: 'Performans aracılığıyla hikayeleri keşfetmek'
     },
     music: {
-      title: 'Müzik Portföyü',
+      title: 'Praxis Portföyü',
       description: 'Melodi ve ritim yaratmak'
     },
     blog: {
-      title: 'Blog',
+      title: 'Poetika',
       description: 'Sanat ve yaşam üzerine düşünceler ve yansımalar',
       readMore: 'Devamını Oku',
       publishedOn: 'Yayınlanma tarihi'

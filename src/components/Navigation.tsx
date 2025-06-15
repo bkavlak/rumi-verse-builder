@@ -23,9 +23,23 @@ export const Navigation = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link to="/" className="text-xl font-bold text-primary hover:text-primary/80 transition-colors">
-            Rumi Jr.
-          </Link>
+          <div className="flex items-center gap-4">
+            <Link to="/" className="text-xl font-bold text-primary hover:text-primary/80 transition-colors">
+              Rumi Jr.
+            </Link>
+            <a 
+              href="https://gravatar.com/a877b3fc0ad866d11ca5a67dbf9dad22" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition-opacity"
+            >
+              <img 
+                src="https://www.gravatar.com/avatar/a877b3fc0ad866d11ca5a67dbf9dad22?s=240&d=mp" 
+                alt="Gravatar Profile" 
+                className="w-8 h-8 rounded-full"
+              />
+            </a>
+          </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
