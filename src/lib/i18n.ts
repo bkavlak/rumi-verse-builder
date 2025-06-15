@@ -1,7 +1,8 @@
 
 export const languages = {
   en: 'English',
-  tr: 'Türkçe'
+  tr: 'Türkçe',
+  de: 'Deutsch'
 } as const;
 
 export type Language = keyof typeof languages;
@@ -16,11 +17,14 @@ export const translations = {
       about: 'About'
     },
     home: {
-      title: 'Rumi Jr.',
+      title: 'A stranger',
       subtitle: 'Artist, Performer, Creator',
-      description: 'Welcome to my artistic journey through theater and music',
+      description: 'Welcome stranger!',
       latestWork: 'Latest Work',
-      viewAll: 'View All'
+      viewAll: 'View All',
+      theoria: 'Theoria',
+      praxis: 'Praxis',
+      poetika: 'Poetika'
     },
     theater: {
       title: 'Theoria Portfolio',
@@ -50,11 +54,14 @@ export const translations = {
       about: 'Hakkında'
     },
     home: {
-      title: 'Rumi Jr.',
+      title: 'Bir yabancı',
       subtitle: 'Sanatçı, Performansçı, Yaratıcı',
-      description: 'Tiyatro ve müzik aracılığıyla sanatsal yolculuğuma hoş geldiniz',
+      description: 'Hoş geldin yabancı!',
       latestWork: 'Son Çalışmalar',
-      viewAll: 'Tümünü Gör'
+      viewAll: 'Tümünü Gör',
+      theoria: 'Theoria',
+      praxis: 'Praxis',
+      poetika: 'Poetika'
     },
     theater: {
       title: 'Theoria Portföyü',
@@ -73,6 +80,43 @@ export const translations = {
     about: {
       title: 'Hakkımda',
       description: 'Sanatsal yolculuğum hakkında daha fazla bilgi'
+    }
+  },
+  de: {
+    nav: {
+      home: 'Startseite',
+      theater: 'Theoria',
+      music: 'Praxis',
+      blog: 'Poetika',
+      about: 'Über mich'
+    },
+    home: {
+      title: 'Ein Fremder',
+      subtitle: 'Künstler, Performer, Schöpfer',
+      description: 'Willkommen Fremder!',
+      latestWork: 'Neueste Arbeiten',
+      viewAll: 'Alle anzeigen',
+      theoria: 'Theoria',
+      praxis: 'Praxis',
+      poetika: 'Poetika'
+    },
+    theater: {
+      title: 'Theoria Portfolio',
+      description: 'Geschichten durch Performance erkunden'
+    },
+    music: {
+      title: 'Praxis Portfolio',
+      description: 'Melodien und Rhythmen erschaffen'
+    },
+    blog: {
+      title: 'Poetika',
+      description: 'Gedanken und Reflexionen über Kunst und Leben',
+      readMore: 'Mehr lesen',
+      publishedOn: 'Veröffentlicht am'
+    },
+    about: {
+      title: 'Über mich',
+      description: 'Erfahre mehr über meine künstlerische Reise'
     }
   }
 };
