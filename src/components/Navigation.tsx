@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { LanguageToggle } from './LanguageToggle';
+import { ThemeToggle } from './ThemeToggle';
 import { useLanguage } from '@/hooks/useLanguage';
 import { Menu, X } from 'lucide-react';
 
@@ -56,11 +57,13 @@ export const Navigation = () => {
                 {t(key)}
               </Link>
             ))}
+            <ThemeToggle />
             <LanguageToggle />
           </div>
 
           {/* Mobile menu button */}
           <div className="md:hidden flex items-center gap-2">
+            <ThemeToggle />
             <LanguageToggle />
             <Button
               variant="ghost"

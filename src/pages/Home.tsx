@@ -1,4 +1,3 @@
-
 import { Navigation } from '@/components/Navigation';
 import { PortfolioCard } from '@/components/PortfolioCard';
 import { BlogCard } from '@/components/BlogCard';
@@ -27,9 +26,6 @@ const Home = () => {
           <h1 className="text-4xl sm:text-6xl font-bold text-primary mb-6 animate-in fade-in slide-in-from-bottom-4 duration-1000">
             {t('home.title')}
           </h1>
-          <p className="text-xl sm:text-2xl text-muted-foreground mb-4 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-150">
-            {t('home.subtitle')}
-          </p>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-300">
             {t('home.description')}
           </p>
