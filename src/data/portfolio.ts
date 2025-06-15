@@ -1,4 +1,3 @@
-
 export interface PortfolioItem {
   id: string;
   title: {
@@ -28,19 +27,25 @@ export interface BlogPost {
   title: {
     en: string;
     tr: string;
+    de?: string;
   };
   content: {
     en: string;
     tr: string;
+    de?: string;
   };
   excerpt: {
     en: string;
     tr: string;
+    de?: string;
   };
   date: string;
   tags: string[];
   image?: string;
 }
+
+// Import the markdown blog posts
+import { getMarkdownBlogPosts } from '@/utils/markdownLoader';
 
 export const portfolioItems: PortfolioItem[] = [
   {
@@ -117,39 +122,4 @@ export const portfolioItems: PortfolioItem[] = [
   }
 ];
 
-export const blogPosts: BlogPost[] = [
-  {
-    id: '1',
-    title: {
-      en: 'The Art of Performance',
-      tr: 'Performans Sanatı'
-    },
-    excerpt: {
-      en: 'Exploring the intersection of theater and music in contemporary art',
-      tr: 'Çağdaş sanatta tiyatro ve müziğin kesişimini keşfetmek'
-    },
-    content: {
-      en: 'Performance art has always been about breaking boundaries and challenging conventions. In my work, I strive to create experiences that blur the lines between different artistic disciplines...',
-      tr: 'Performans sanatı her zaman sınırları yıkmak ve geleneklere meydan okumakla ilgili olmuştur. Çalışmalarımda, farklı sanatsal disiplinler arasındaki çizgileri bulanıklaştıran deneyimler yaratmaya çalışıyorum...'
-    },
-    date: '2024-06-01',
-    tags: ['performance', 'art', 'theater', 'music']
-  },
-  {
-    id: '2',
-    title: {
-      en: 'Finding Your Voice',
-      tr: 'Sesini Bulmak'
-    },
-    excerpt: {
-      en: 'A reflection on the journey of artistic self-discovery',
-      tr: 'Sanatsal kendini keşfetme yolculuğu üzerine bir yansıma'
-    },
-    content: {
-      en: 'Every artist faces the challenge of finding their unique voice. This journey is neither linear nor predictable, but it is always transformative...',
-      tr: 'Her sanatçı kendine özgü sesini bulma zorluğuyla karşılaşır. Bu yolculuk ne doğrusal ne de öngörülebilirdir, ancak her zaman dönüştürücüdür...'
-    },
-    date: '2024-05-15',
-    tags: ['personal', 'growth', 'creativity']
-  }
-];
+export const blogPosts: BlogPost[] = getMarkdownBlogPosts();
