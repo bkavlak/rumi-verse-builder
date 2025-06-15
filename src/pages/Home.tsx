@@ -55,22 +55,22 @@ const Home = () => {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
         <div className="max-w-7xl mx-auto">
           <Tabs defaultValue="theoria" className="w-full">
-            <TabsList className="grid w-full grid-cols-3 mb-8">
-              <TabsTrigger value="theoria" className="flex items-center gap-2">
+            <TabsList className="grid w-full grid-cols-3 mb-8 h-12">
+              <TabsTrigger value="theoria" className="flex items-center gap-2 text-sm">
                 <Theater className="h-4 w-4" />
                 {t('home.theoria')}
               </TabsTrigger>
-              <TabsTrigger value="praxis" className="flex items-center gap-2">
+              <TabsTrigger value="praxis" className="flex items-center gap-2 text-sm">
                 <Music className="h-4 w-4" />
                 {t('home.praxis')}
               </TabsTrigger>
-              <TabsTrigger value="poetika" className="flex items-center gap-2">
+              <TabsTrigger value="poetika" className="flex items-center gap-2 text-sm">
                 <BookOpen className="h-4 w-4" />
                 {t('home.poetika')}
               </TabsTrigger>
             </TabsList>
             
-            <TabsContent value="theoria">
+            <TabsContent value="theoria" className="space-y-6">
               <div className="text-center mb-8">
                 <h3 className="text-2xl font-bold text-primary mb-4">{t('theater.title')}</h3>
                 <p className="text-muted-foreground mb-6">{t('theater.description')}</p>
@@ -90,7 +90,7 @@ const Home = () => {
               </div>
             </TabsContent>
             
-            <TabsContent value="praxis">
+            <TabsContent value="praxis" className="space-y-6">
               <div className="text-center mb-8">
                 <h3 className="text-2xl font-bold text-primary mb-4">{t('music.title')}</h3>
                 <p className="text-muted-foreground mb-6">{t('music.description')}</p>
@@ -110,7 +110,7 @@ const Home = () => {
               </div>
             </TabsContent>
             
-            <TabsContent value="poetika">
+            <TabsContent value="poetika" className="space-y-6">
               <div className="text-center mb-8">
                 <h3 className="text-2xl font-bold text-primary mb-4">{t('blog.title')}</h3>
                 <p className="text-muted-foreground mb-6">{t('blog.description')}</p>
