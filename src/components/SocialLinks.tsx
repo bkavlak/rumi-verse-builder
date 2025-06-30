@@ -1,5 +1,5 @@
 
-import { Github, Linkedin, Instagram, Youtube } from 'lucide-react';
+import { Github, Linkedin, Instagram, Youtube, Camera } from 'lucide-react';
 
 interface SocialLinksProps {
   className?: string;
@@ -26,6 +26,11 @@ export const SocialLinks = ({ className = "" }: SocialLinksProps) => {
       name: 'YouTube',
       url: 'https://www.youtube.com/@batuhankavlakkendisi',
       icon: Youtube
+    },
+    {
+      name: 'Pixelfed',
+      url: 'https://pixelfed.social/bkavlak',
+      icon: Camera
     }
   ];
 
