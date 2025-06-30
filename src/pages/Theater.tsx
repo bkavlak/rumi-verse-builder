@@ -17,10 +17,10 @@ const Theater = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h1 className="text-4xl sm:text-5xl font-bold text-primary mb-6">
-              {t('theater.title')}
+              {t('theoria.title')}
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              {t('theater.description')}
+              {t('theoria.description')}
             </p>
           </div>
 

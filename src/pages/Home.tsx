@@ -18,15 +18,15 @@ const Home = () => {
     <div className="min-h-screen bg-background">
       <Navigation />
       
-      {/* Blog Section */}
+      {/* Poetika Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30 pt-32">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-8">
             <h3 className="text-2xl font-bold text-primary mb-4 flex items-center justify-center gap-2">
               <BookOpen className="h-6 w-6" />
-              {t('blog.title')}
+              {t('poetika.title')}
             </h3>
-            <p className="text-muted-foreground mb-6">{t('blog.description')}</p>
+            <p className="text-muted-foreground mb-6">{t('poetika.description')}</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {latestBlog.map((post) => (

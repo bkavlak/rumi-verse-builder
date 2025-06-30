@@ -17,10 +17,10 @@ const Music = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h1 className="text-4xl sm:text-5xl font-bold text-primary mb-6">
-              {t('music.title')}
+              {t('praxis.title')}
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              {t('music.description')}
+              {t('praxis.description')}
             </p>
           </div>
 

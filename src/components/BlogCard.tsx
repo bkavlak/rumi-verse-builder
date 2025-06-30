@@ -30,7 +30,7 @@ export const BlogCard = ({ post }: BlogCardProps) => {
         </CardTitle>
         <div className="flex items-center gap-2 text-sm text-muted-foreground">
           <Calendar className="h-4 w-4" />
-          {t('blog.publishedOn')} {new Date(post.date).toLocaleDateString()}
+          {t('poetika.publishedOn')} {new Date(post.date).toLocaleDateString()}
         </div>
       </CardHeader>
       <CardContent>
@@ -47,7 +47,7 @@ export const BlogCard = ({ post }: BlogCardProps) => {
         </div>
 
         <Button variant="outline" className="flex items-center gap-2 group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
-          {t('blog.readMore')}
+          {t('poetika.readMore')}
           <ArrowRight className="h-4 w-4" />
         </Button>
       </CardContent>

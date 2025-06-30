@@ -26,15 +26,15 @@ export const translations = {
       praxis: 'Praxis',
       poetika: 'Poetika'
     },
-    theater: {
+    theoria: {
       title: 'Theoria Portfolio',
       description: 'Exploring stories through performance'
     },
-    music: {
+    praxis: {
       title: 'Praxis Portfolio', 
       description: 'Creating melodies and rhythms'
     },
-    blog: {
+    poetika: {
       title: 'Poetika',
       description: 'Thoughts and reflections on art and life',
       readMore: 'Read More',
@@ -63,15 +63,15 @@ export const translations = {
       praxis: 'Praxis',
       poetika: 'Poetika'
     },
-    theater: {
+    theoria: {
       title: 'Theoria Portföyü',
       description: 'Performans aracılığıyla hikayeleri keşfetmek'
     },
-    music: {
+    praxis: {
       title: 'Praxis Portföyü',
       description: 'Melodi ve ritim yaratmak'
     },
-    blog: {
+    poetika: {
       title: 'Poetika',
       description: 'Sanat ve yaşam üzerine düşünceler ve yansımalar',
       readMore: 'Devamını Oku',
@@ -100,15 +100,15 @@ export const translations = {
       praxis: 'Praxis',
       poetika: 'Poetika'
     },
-    theater: {
+    theoria: {
       title: 'Theoria Portfolio',
       description: 'Geschichten durch Performance erkunden'
     },
-    music: {
+    praxis: {
       title: 'Praxis Portfolio',
       description: 'Melodien und Rhythmen erschaffen'
     },
-    blog: {
+    poetika: {
       title: 'Poetika',
       description: 'Gedanken und Reflexionen über Kunst und Leben',
       readMore: 'Mehr lesen',
