@@ -13,10 +13,10 @@ const Home = () => {
       <section className="py-20 px-4 sm:px-6 lg:px-8 pt-32">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl sm:text-6xl font-bold text-primary mb-8">
-            Hey, stranger!
+            {t('home.title')}
           </h1>
           <p className="text-xl sm:text-2xl text-muted-foreground animate-fade-in animation-delay-500">
-            We've been waiting for you.
+            {t('home.subtitle')}
           </p>
         </div>
       </section>

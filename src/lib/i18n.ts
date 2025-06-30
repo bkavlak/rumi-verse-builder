@@ -1,4 +1,3 @@
-
 export const languages = {
   en: 'English',
   tr: 'Türkçe',
@@ -17,8 +16,8 @@ export const translations = {
       about: 'About'
     },
     home: {
-      title: 'A stranger',
-      subtitle: 'Artist, Performer, Creator',
+      title: 'Hey, stranger!',
+      subtitle: "We've been waiting for you.",
       description: 'Welcome stranger!',
       latestWork: 'Latest Work',
       viewAll: 'View All',
@@ -54,8 +53,8 @@ export const translations = {
       about: 'Hakkında'
     },
     home: {
-      title: 'Bir yabancı',
-      subtitle: 'Sanatçı, Performansçı, Yaratıcı',
+      title: 'Hoş geldin, Yabancı!',
+      subtitle: 'Biz de seni bekliyorduk.',
       description: 'Hoş geldin yabancı!',
       latestWork: 'Son Çalışmalar',
       viewAll: 'Tümünü Gör',
@@ -91,8 +90,8 @@ export const translations = {
       about: 'Über mich'
     },
     home: {
-      title: 'Ein Fremder',
-      subtitle: 'Künstler, Performer, Schöpfer',
+      title: 'Herzlich willkommen, Fremder!',
+      subtitle: 'Wir haben schon auf dich gewartet.',
       description: 'Willkommen Fremder!',
       latestWork: 'Neueste Arbeiten',
       viewAll: 'Alle anzeigen',
