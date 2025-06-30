@@ -43,7 +43,7 @@ export const translations = {
     },
     about: {
       title: 'About Me',
-      description: 'Learn more about my artistic journey'
+      description: 'Who am I? I do not know.'
     }
   },
   tr: {
@@ -81,7 +81,7 @@ export const translations = {
     },
     about: {
       title: 'Hakkımda',
-      description: 'Ben kimim? Nerden geldim? Bilmiyorum.'
+      description: 'Ben kimim? Bilmem.'
     }
   },
   de: {
@@ -119,7 +119,7 @@ export const translations = {
     },
     about: {
       title: 'Über mich',
-      description: 'Erfahre mehr über meine künstlerische Reise'
+      description: 'Wer bin ich? Ich weiß es nicht.'
     }
   }
 };
