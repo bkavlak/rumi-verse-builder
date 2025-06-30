@@ -9,9 +9,8 @@ const Poiesis = () => {
   const { t, language } = useLanguage();
 
   const poiesisItems = getMarkdownBlogPosts(language).filter(post => {
-    // Filter posts that belong to poiesis category
     const postId = post.id;
-    return ['art-and-solitude', 'artificial-intelligence-creativity'].includes(postId);
+    return postId === 'under-construction';
   });
 
   return (

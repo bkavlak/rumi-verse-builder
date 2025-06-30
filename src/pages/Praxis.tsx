@@ -9,9 +9,8 @@ const Praxis = () => {
   const { t, language } = useLanguage();
 
   const praxisItems = getMarkdownBlogPosts(language).filter(post => {
-    // Filter posts that belong to praxis category
     const postId = post.id;
-    return ['electronic-acoustic-fusion', 'rhythm-of-the-city'].includes(postId);
+    return postId === 'under-construction';
   });
 
   return (

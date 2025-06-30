@@ -9,9 +9,8 @@ const Theoria = () => {
   const { t, language } = useLanguage();
 
   const theoriaItems = getMarkdownBlogPosts(language).filter(post => {
-    // Filter posts that belong to theoria category
     const postId = post.id;
-    return ['shakespeare-modern-interpretation', 'dance-theoria-fusion'].includes(postId);
+    return postId === 'under-construction';
   });
 
   return (
