@@ -11,7 +11,7 @@ excerpt:
   de: "Erforschung, wie künstliche Intelligenz unser Verständnis von Kreativität und künstlerischem Ausdruck herausfordert"
 date: "2024-05-30"
 tags: ["AI", "creativity", "technology", "philosophy", "future"]
-category: "poetika"
+category: "poiesis"
 image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop"
 ---
 

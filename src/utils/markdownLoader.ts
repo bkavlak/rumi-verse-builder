@@ -18,7 +18,7 @@ export interface MarkdownBlogPost {
     };
     date: string;
     tags: string[];
-    category: 'theoria' | 'praxis' | 'poetika';
+    category: 'theoria' | 'praxis' | 'poiesis';
     image?: string;
   };
   content: string;
@@ -122,7 +122,7 @@ const markdownBlogPosts: MarkdownBlogPost[] = [
       },
       date: "2024-06-05",
       tags: ["creativity", "solitude", "process", "philosophy", "reflection"],
-      category: "poetika",
+      category: "poiesis",
       image: "https://images.unsplash.com/photo-1454391304352-2bf4678b1a7a?w=800&h=400&fit=crop"
     },
     content: "# The Necessary Loneliness of Creation\n\nThere's a moment in every creative process when you must face the work alone..."
@@ -142,7 +142,7 @@ const markdownBlogPosts: MarkdownBlogPost[] = [
       },
       date: "2024-05-30",
       tags: ["AI", "creativity", "technology", "philosophy", "future"],
-      category: "poetika",
+      category: "poiesis",
       image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop"
     },
     content: "# Human vs. Machine: What AI Teaches Us About Creativity\n\nLast month, I collaborated with an AI system on a musical composition..."
@@ -165,7 +165,7 @@ export const getMarkdownBlogPosts = (): BlogPost[] => {
   }));
 };
 
-export const getBlogPostsByCategory = (category: 'theoria' | 'praxis' | 'poetika'): BlogPost[] => {
+export const getBlogPostsByCategory = (category: 'theoria' | 'praxis' | 'poiesis'): BlogPost[] => {
   return getMarkdownBlogPosts().filter(post => {
     const originalPost = markdownBlogPosts.find(mp => mp.frontmatter.id === post.id);
     return originalPost?.frontmatter.category === category;

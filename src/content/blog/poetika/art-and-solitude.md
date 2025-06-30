@@ -11,7 +11,7 @@ excerpt:
   de: "Warum Künstler lernen müssen, mit ihrer Arbeit allein zu sein, und wie Einsamkeit zu einem kreativen Werkzeug wird"
 date: "2024-06-05"
 tags: ["creativity", "solitude", "process", "philosophy", "reflection"]
-category: "poetika"
+category: "poiesis"
 image: "https://images.unsplash.com/photo-1454391304352-2bf4678b1a7a?w=800&h=400&fit=crop"
 ---
 

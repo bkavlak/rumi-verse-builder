@@ -25,7 +25,7 @@ const Home = () => {
       <footer className="py-12 px-4 sm:px-6 lg:px-8 bg-muted/50 border-t border-border/50">
         <div className="max-w-7xl mx-auto text-center">
           <p className="text-muted-foreground mb-2">
-            © 2024 Rumi Jr. All rights reserved.
+            © 2024 rumi jr. All rights reserved.
           </p>
           <p className="text-sm text-muted-foreground">
             This work is licensed under a{' '}

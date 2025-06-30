@@ -26,7 +26,7 @@ export const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-4">
             <Link to="/" className="text-xl font-bold text-primary hover:text-primary/80 transition-colors">
-              Rumi Jr.
+              rumi jr.
             </Link>
             <a 
               href="https://gravatar.com/a877b3fc0ad866d11ca5a67dbf9dad22" 

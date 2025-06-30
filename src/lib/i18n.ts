@@ -13,7 +13,7 @@ export const translations = {
       home: 'Home',
       theater: 'Theoria',
       music: 'Praxis',
-      blog: 'Poetika',
+      blog: 'Poiesis',
       about: 'About'
     },
     home: {
@@ -24,7 +24,7 @@ export const translations = {
       viewAll: 'View All',
       theoria: 'Theoria',
       praxis: 'Praxis',
-      poetika: 'Poetika'
+      poiesis: 'Poiesis'
     },
     theoria: {
       title: 'Theoria Portfolio',
@@ -34,8 +34,8 @@ export const translations = {
       title: 'Praxis Portfolio', 
       description: 'Creating melodies and rhythms'
     },
-    poetika: {
-      title: 'Poetika',
+    poiesis: {
+      title: 'Poiesis',
       description: 'Thoughts and reflections on art and life',
       readMore: 'Read More',
       publishedOn: 'Published on'
@@ -50,7 +50,7 @@ export const translations = {
       home: 'Ana Sayfa',
       theater: 'Theoria',
       music: 'Praxis',
-      blog: 'Poetika',
+      blog: 'Poiesis',
       about: 'Hakkında'
     },
     home: {
@@ -61,7 +61,7 @@ export const translations = {
       viewAll: 'Tümünü Gör',
       theoria: 'Theoria',
       praxis: 'Praxis',
-      poetika: 'Poetika'
+      poiesis: 'Poiesis'
     },
     theoria: {
       title: 'Theoria Portföyü',
@@ -71,8 +71,8 @@ export const translations = {
       title: 'Praxis Portföyü',
       description: 'Melodi ve ritim yaratmak'
     },
-    poetika: {
-      title: 'Poetika',
+    poiesis: {
+      title: 'Poiesis',
       description: 'Sanat ve yaşam üzerine düşünceler ve yansımalar',
       readMore: 'Devamını Oku',
       publishedOn: 'Yayınlanma tarihi'
@@ -87,7 +87,7 @@ export const translations = {
       home: 'Startseite',
       theater: 'Theoria',
       music: 'Praxis',
-      blog: 'Poetika',
+      blog: 'Poiesis',
       about: 'Über mich'
     },
     home: {
@@ -98,7 +98,7 @@ export const translations = {
       viewAll: 'Alle anzeigen',
       theoria: 'Theoria',
       praxis: 'Praxis',
-      poetika: 'Poetika'
+      poiesis: 'Poiesis'
     },
     theoria: {
       title: 'Theoria Portfolio',
@@ -108,8 +108,8 @@ export const translations = {
       title: 'Praxis Portfolio',
       description: 'Melodien und Rhythmen erschaffen'
     },
-    poetika: {
-      title: 'Poetika',
+    poiesis: {
+      title: 'Poiesis',
       description: 'Gedanken und Reflexionen über Kunst und Leben',
       readMore: 'Mehr lesen',
       publishedOn: 'Veröffentlicht am'
