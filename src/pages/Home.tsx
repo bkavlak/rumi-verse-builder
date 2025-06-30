@@ -6,7 +6,7 @@ import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/hooks/useLanguage';
 import { portfolioItems, blogPosts } from '@/data/portfolio';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Music, Theater, BookOpen } from 'lucide-react';
+import { ArrowRight, BookOpen } from 'lucide-react';
 
 const Home = () => {
   const { t } = useLanguage();
@@ -18,35 +18,8 @@ const Home = () => {
     <div className="min-h-screen bg-background">
       <Navigation />
       
-      {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-4xl sm:text-6xl font-bold text-primary mb-6 animate-in fade-in slide-in-from-bottom-4 duration-1000">
-            {t('home.title')}
-          </h1>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-300">
-            {t('home.description')}
-          </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-500">
-            <Button asChild size="lg" className="flex items-center gap-2">
-              <Link to="/theater">
-                <Theater className="h-5 w-5" />
-                {t('nav.theater')}
-              </Link>
-            </Button>
-            <Button asChild variant="outline" size="lg" className="flex items-center gap-2">
-              <Link to="/music">
-                <Music className="h-5 w-5" />
-                {t('nav.music')}
-              </Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
       {/* Blog Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30 pt-32">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-8">
             <h3 className="text-2xl font-bold text-primary mb-4 flex items-center justify-center gap-2">
