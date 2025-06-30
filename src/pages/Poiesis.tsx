@@ -1,17 +1,14 @@
 
 import { Navigation } from '@/components/Navigation';
 import { useLanguage } from '@/hooks/useLanguage';
-import { getMarkdownBlogPosts } from '@/utils/markdownLoader';
+import { getBlogPostsByCategory } from '@/utils/markdownLoader';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Badge } from '@/components/ui/badge';
 
 const Poiesis = () => {
   const { t, language } = useLanguage();
 
-  const poiesisItems = getMarkdownBlogPosts(language).filter(post => {
-    const postId = post.id;
-    return postId === 'under-construction';
-  });
+  const poiesisItems = getBlogPostsByCategory('poiesis', language);
 
   return (
     <div className="min-h-screen bg-background">

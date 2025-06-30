@@ -1,17 +1,14 @@
 
 import { Navigation } from '@/components/Navigation';
 import { useLanguage } from '@/hooks/useLanguage';
-import { getMarkdownBlogPosts } from '@/utils/markdownLoader';
+import { getBlogPostsByCategory } from '@/utils/markdownLoader';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Badge } from '@/components/ui/badge';
 
 const Praxis = () => {
   const { t, language } = useLanguage();
 
-  const praxisItems = getMarkdownBlogPosts(language).filter(post => {
-    const postId = post.id;
-    return postId === 'under-construction';
-  });
+  const praxisItems = getBlogPostsByCategory('praxis', language);
 
   return (
     <div className="min-h-screen bg-background">

@@ -1,17 +1,14 @@
 
 import { Navigation } from '@/components/Navigation';
 import { useLanguage } from '@/hooks/useLanguage';
-import { getMarkdownBlogPosts } from '@/utils/markdownLoader';
+import { getBlogPostsByCategory } from '@/utils/markdownLoader';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Badge } from '@/components/ui/badge';
 
 const Theoria = () => {
   const { t, language } = useLanguage();
 
-  const theoriaItems = getMarkdownBlogPosts(language).filter(post => {
-    const postId = post.id;
-    return postId === 'under-construction';
-  });
+  const theoriaItems = getBlogPostsByCategory('theoria', language);
 
   return (
     <div className="min-h-screen bg-background">
