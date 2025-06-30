@@ -6,9 +6,9 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Theater from "./pages/Theater";
-import Music from "./pages/Music";
-import Blog from "./pages/Blog";
+import Theoria from "./pages/Theoria";
+import Praxis from "./pages/Praxis";
+import Poiesis from "./pages/Poiesis";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 
@@ -23,9 +23,9 @@ const App = () => (
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/theater" element={<Theater />} />
-            <Route path="/music" element={<Music />} />
-            <Route path="/blog" element={<Blog />} />
+            <Route path="/theoria" element={<Theoria />} />
+            <Route path="/praxis" element={<Praxis />} />
+            <Route path="/poiesis" element={<Poiesis />} />
             <Route path="/about" element={<About />} />
             <Route path="*" element={<NotFound />} />
           </Routes>

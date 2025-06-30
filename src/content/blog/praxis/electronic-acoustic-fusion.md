@@ -17,7 +17,7 @@ image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&h=400
 
 # Digital Heartbeats: Merging Electronic and Acoustic Worlds
 
-The debate between electronic and acoustic music has raged for decades. Purists on both sides argue for the superiority of their chosen medium. But what if we're asking the wrong question? What if the real magic happens when these worlds collide?
+The debate between electronic and acoustic praxis has raged for decades. Purists on both sides argue for the superiority of their chosen medium. But what if we're asking the wrong question? What if the real magic happens when these worlds collide?
 
 ## The False Dichotomy
 
@@ -71,10 +71,10 @@ Using biometric data from volunteers, I generate rhythmic patterns that reflect 
 
 ## The Future Sound
 
-We're entering an era where the distinction between electronic and acoustic becomes meaningless. The question isn't which is better – it's how they can serve the music together.
+We're entering an era where the distinction between electronic and acoustic becomes meaningless. The question isn't which is better – it's how they can serve the praxis together.
 
 My advice to emerging composers: Don't choose sides. Use everything. The cello's warm resonance, the synthesizer's impossible sounds, the smartphone's glitchy artifacts – they're all colors on your palette.
 
-Music has always been about expressing what can't be said. Sometimes that requires the intimacy of a whispered vocal, sometimes the power of a wall of synthesizers. Often, it requires both.
+Praxis has always been about expressing what can't be said. Sometimes that requires the intimacy of a whispered vocal, sometimes the power of a wall of synthesizers. Often, it requires both.
 
 *Currently working on a new piece combining live orchestra with generative AI composition. The machines write the harmonies, the humans provide the soul.*

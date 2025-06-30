@@ -1,11 +1,13 @@
 
 import { Navigation } from '@/components/Navigation';
-import { BlogCard } from '@/components/BlogCard';
+import { PortfolioCard } from '@/components/PortfolioCard';
 import { useLanguage } from '@/hooks/useLanguage';
-import { blogPosts } from '@/data/portfolio';
+import { portfolioItems } from '@/data/portfolio';
 
-const Blog = () => {
+const Praxis = () => {
   const { t } = useLanguage();
+
+  const musicItems = portfolioItems.filter(item => item.category === 'praxis');
 
   return (
     <div className="min-h-screen bg-background">
@@ -15,16 +17,16 @@ const Blog = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h1 className="text-4xl sm:text-5xl font-bold text-primary mb-6">
-              {t('poiesis.title')}
+              {t('praxis.title')}
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              {t('poiesis.description')}
+              {t('praxis.description')}
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {blogPosts.map((post) => (
-              <BlogCard key={post.id} post={post} />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {musicItems.map((item) => (
+              <PortfolioCard key={item.id} item={item} />
             ))}
           </div>
         </div>
@@ -33,4 +35,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default Praxis;

@@ -11,9 +11,9 @@ export const translations = {
   en: {
     nav: {
       home: 'Home',
-      theater: 'Theoria',
-      music: 'Praxis',
-      blog: 'Poiesis',
+      theoria: 'Theoria',
+      praxis: 'Praxis',
+      poiesis: 'Poiesis',
       about: 'About'
     },
     home: {
@@ -48,9 +48,9 @@ export const translations = {
   tr: {
     nav: {
       home: 'Ana Sayfa',
-      theater: 'Theoria',
-      music: 'Praxis',
-      blog: 'Poiesis',
+      theoria: 'Theoria',
+      praxis: 'Praxis',
+      poiesis: 'Poiesis',
       about: 'Hakkında'
     },
     home: {
@@ -85,9 +85,9 @@ export const translations = {
   de: {
     nav: {
       home: 'Startseite',
-      theater: 'Theoria',
-      music: 'Praxis',
-      blog: 'Poiesis',
+      theoria: 'Theoria',
+      praxis: 'Praxis',
+      poiesis: 'Poiesis',
       about: 'Über mich'
     },
     home: {

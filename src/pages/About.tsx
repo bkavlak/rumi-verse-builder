@@ -10,7 +10,7 @@ const About = () => {
 
   const aboutContent = {
     en: {
-      bio: "I am an artist passionate about the intersection of theater and music. My work explores contemporary themes through traditional and experimental forms, creating immersive experiences that challenge and inspire audiences.",
+      bio: "I am an artist passionate about the intersection of theoria and praxis. My work explores contemporary themes through traditional and experimental forms, creating immersive experiences that challenge and inspire audiences.",
       journey: "My artistic journey began in childhood, influenced by the rich cultural heritage of my homeland. Over the years, I have developed a unique voice that blends Eastern and Western artistic traditions.",
       philosophy: "I believe art should be accessible, transformative, and deeply human. Through my performances and compositions, I strive to create moments of connection and understanding."
     },

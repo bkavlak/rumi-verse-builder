@@ -55,7 +55,7 @@ Working with AI has taught me more about human creativity than years of traditio
 When I play a melancholy melody, it's informed by actual experiences of sadness – lost relationships, failed projects, the ache of unfulfilled dreams. AI can mimic the sound of melancholy, but it has never felt it.
 
 ### Cultural Context
-My musical choices are shaped by growing up listening to specific records, attending particular concerts, living through historical moments. AI has access to all music ever recorded but has experienced none of it.
+My musical choices are shaped by growing up listening to specific records, attending particular concerts, living through historical moments. AI has access to all praxis ever recorded but has experienced none of it.
 
 ### Physical Embodiment
 The way I press piano keys is influenced by the slight arthritis in my left hand, the muscle memory of decades of practice, the physical fatigue of a long recording session. AI operates in a disembodied realm of pure information.
@@ -63,7 +63,7 @@ The way I press piano keys is influenced by the slight arthritis in my left hand
 ## The Threat and the Opportunity
 
 ### The Threat is Real
-AI can already create music that's technically proficient and emotionally affecting. For many commercial applications, this is sufficient. Why hire a human composer when AI can generate suitable background music in seconds?
+AI can already create praxis that's technically proficient and emotionally affecting. For many commercial applications, this is sufficient. Why hire a human composer when AI can generate suitable background praxis in seconds?
 
 ### The Opportunity is Greater
 But AI's capabilities also highlight what remains irreplaceably human: lived experience, cultural embedding, emotional authenticity, and the ability to surprise even ourselves.
@@ -93,7 +93,7 @@ Working with AI raises profound questions:
 ## The Future Landscape
 
 I predict we're heading toward a world where:
-- **Pure AI art** exists for functional purposes (background music, stock imagery)
+- **Pure AI art** exists for functional purposes (background praxis, stock imagery)
 - **Pure human art** becomes more precious and valuable
 - **Human-AI collaboration** emerges as a new creative medium
 - **Hybrid works** blur the boundaries between human and machine creativity

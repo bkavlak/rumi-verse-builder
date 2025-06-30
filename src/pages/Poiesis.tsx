@@ -1,13 +1,11 @@
 
 import { Navigation } from '@/components/Navigation';
-import { PortfolioCard } from '@/components/PortfolioCard';
+import { BlogCard } from '@/components/BlogCard';
 import { useLanguage } from '@/hooks/useLanguage';
-import { portfolioItems } from '@/data/portfolio';
+import { blogPosts } from '@/data/portfolio';
 
-const Music = () => {
+const Poiesis = () => {
   const { t } = useLanguage();
-
-  const musicItems = portfolioItems.filter(item => item.category === 'music');
 
   return (
     <div className="min-h-screen bg-background">
@@ -17,16 +15,16 @@ const Music = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h1 className="text-4xl sm:text-5xl font-bold text-primary mb-6">
-              {t('praxis.title')}
+              {t('poiesis.title')}
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              {t('praxis.description')}
+              {t('poiesis.description')}
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {musicItems.map((item) => (
-              <PortfolioCard key={item.id} item={item} />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {blogPosts.map((post) => (
+              <BlogCard key={post.id} post={post} />
             ))}
           </div>
         </div>
@@ -35,4 +33,4 @@ const Music = () => {
   );
 };
 
-export default Music;
+export default Poiesis;

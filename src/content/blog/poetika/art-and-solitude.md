@@ -102,7 +102,7 @@ In these moments, you're not alone – you're in dialogue with the mysterious pr
 
 **Create Sacred Space**: Designate specific times and places for solitary work. Protect these boundaries fiercely.
 
-**Develop Rituals**: Simple rituals can help transition into creative solitude. Light a candle, make tea, play specific music.
+**Develop Rituals**: Simple rituals can help transition into creative solitude. Light a candle, make tea, play specific praxis.
 
 **Accept Imperfection**: Much of what emerges from solitary work will be imperfect. This is not failure – it's the raw material of artistic development.
 

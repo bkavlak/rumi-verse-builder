@@ -4,10 +4,10 @@ import { PortfolioCard } from '@/components/PortfolioCard';
 import { useLanguage } from '@/hooks/useLanguage';
 import { portfolioItems } from '@/data/portfolio';
 
-const Theater = () => {
+const Theoria = () => {
   const { t } = useLanguage();
 
-  const theaterItems = portfolioItems.filter(item => item.category === 'theater');
+  const theaterItems = portfolioItems.filter(item => item.category === 'theoria');
 
   return (
     <div className="min-h-screen bg-background">
@@ -35,4 +35,4 @@ const Theater = () => {
   );
 };
 
-export default Theater;
+export default Theoria;

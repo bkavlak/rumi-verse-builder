@@ -8,7 +8,7 @@ export interface PortfolioItem {
     en: string;
     tr: string;
   };
-  category: 'theater' | 'music';
+  category: 'theoria' | 'praxis';
   image?: string;
   date: string;
   tags: string[];
@@ -44,7 +44,7 @@ export interface BlogPost {
   image?: string;
 }
 
-// Import the markdown blog posts
+// Import the markdown poiesis posts
 import { getMarkdownBlogPosts } from '@/utils/markdownLoader';
 
 export const portfolioItems: PortfolioItem[] = [
@@ -55,10 +55,10 @@ export const portfolioItems: PortfolioItem[] = [
       tr: 'Parkta Shakespeare'
     },
     description: {
-      en: 'A modern interpretation of classical theater in an outdoor setting',
+      en: 'A modern interpretation of classical theoria in an outdoor setting',
       tr: 'Açık hava ortamında klasik tiyatronun modern yorumu'
     },
-    category: 'theater',
+    category: 'theoria',
     date: '2024-06-15',
     tags: ['classical', 'outdoor', 'shakespeare'],
     links: [
@@ -79,10 +79,10 @@ export const portfolioItems: PortfolioItem[] = [
       tr: 'Şehir Senfonisi'
     },
     description: {
-      en: 'An experimental music piece blending electronic and acoustic elements',
+      en: 'An experimental praxis piece blending electronic and acoustic elements',
       tr: 'Elektronik ve akustik unsurları harmanlayan deneysel bir müzik eseri'
     },
-    category: 'music',
+    category: 'praxis',
     date: '2024-05-20',
     tags: ['experimental', 'electronic', 'acoustic'],
     links: [
@@ -99,14 +99,14 @@ export const portfolioItems: PortfolioItem[] = [
   {
     id: '3',
     title: {
-      en: 'Contemporary Dance Theater',
+      en: 'Contemporary Dance Theoria',
       tr: 'Çağdaş Dans Tiyatrosu'
     },
     description: {
       en: 'A fusion of movement and storytelling through contemporary dance',
       tr: 'Çağdaş dans aracılığıyla hareket ve hikaye anlatımının füzyonu'
     },
-    category: 'theater',
+    category: 'theoria',
     date: '2024-04-10',
     tags: ['contemporary', 'dance', 'movement'],
     links: [

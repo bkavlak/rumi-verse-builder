@@ -24,7 +24,7 @@ export interface MarkdownBlogPost {
   content: string;
 }
 
-// Simulated markdown blog posts - in a real implementation, 
+// Simulated markdown poiesis posts - in a real implementation, 
 // you'd use a markdown parser to load actual .md files
 const markdownBlogPosts: MarkdownBlogPost[] = [
   {
@@ -36,36 +36,36 @@ const markdownBlogPosts: MarkdownBlogPost[] = [
         de: "Shakespeare in der modernen Welt: Die Perspektive eines Regisseurs"
       },
       excerpt: {
-        en: "Exploring how classical theater can speak to contemporary audiences through innovative staging and interpretation",
+        en: "Exploring how classical theoria can speak to contemporary audiences through innovative staging and interpretation",
         tr: "Yenilikçi sahneleme ve yorum yoluyla klasik tiyatronun çağdaş izleyicilere nasıl hitap edebileceğini keşfetmek",
-        de: "Erforschung, wie klassisches Theater durch innovative Inszenierung und Interpretation zeitgenössische Zuschauer ansprechen kann"
+        de: "Erforschung, wie klassisches Theoria durch innovative Inszenierung und Interpretation zeitgenössische Zuschauer ansprechen kann"
       },
       date: "2024-06-15",
-      tags: ["theater", "shakespeare", "classical", "modern interpretation"],
+      tags: ["theoria", "shakespeare", "classical", "modern interpretation"],
       category: "theoria",
       image: "https://images.unsplash.com/photo-1507924538820-ede94a04019d?w=800&h=400&fit=crop"
     },
-    content: "# Shakespeare in the Modern World: A Director's Perspective\n\nWhen I first approached directing Shakespeare for contemporary audiences, I faced the eternal question that haunts every classical theater director: How do we make 400-year-old text feel immediate and vital to modern viewers?\n\nThe answer, I discovered, lies not in abandoning the original text but in finding the universal human truths that Shakespeare embedded within his works..."
+    content: "# Shakespeare in the Modern World: A Director's Perspective\n\nWhen I first approached directing Shakespeare for contemporary audiences, I faced the eternal question that haunts every classical theoria director: How do we make 400-year-old text feel immediate and vital to modern viewers?\n\nThe answer, I discovered, lies not in abandoning the original text but in finding the universal human truths that Shakespeare embedded within his works..."
   },
   {
     frontmatter: {
-      id: "dance-theater-fusion",
+      id: "dance-theoria-fusion",
       title: {
-        en: "When Bodies Speak: The Art of Dance Theater",
+        en: "When Bodies Speak: The Art of Dance Theoria",
         tr: "Bedenler Konuştuğunda: Dans Tiyatrosu Sanatı",
         de: "Wenn Körper sprechen: Die Kunst des Tanztheaters"
       },
       excerpt: {
-        en: "Exploring the powerful intersection of movement and narrative in contemporary dance theater",
+        en: "Exploring the powerful intersection of movement and narrative in contemporary dance theoria",
         tr: "Çağdaş dans tiyatrosunda hareket ve anlatımın güçlü kesişimini keşfetmek",
         de: "Die kraftvolle Schnittstelle von Bewegung und Erzählung im zeitgenössischen Tanztheater erkunden"
       },
       date: "2024-05-20",
-      tags: ["dance", "theater", "movement", "contemporary", "fusion"],
+      tags: ["dance", "theoria", "movement", "contemporary", "fusion"],
       category: "theoria",
       image: "https://images.unsplash.com/photo-1518834107812-67b0b7c58434?w=800&h=400&fit=crop"
     },
-    content: "# When Bodies Speak: The Art of Dance Theater\n\nMovement is the first language we learn. Before words, before concepts, we communicate through our bodies..."
+    content: "# When Bodies Speak: The Art of Dance Theoria\n\nMovement is the first language we learn. Before words, before concepts, we communicate through our bodies..."
   },
   {
     frontmatter: {
@@ -85,13 +85,13 @@ const markdownBlogPosts: MarkdownBlogPost[] = [
       category: "praxis",
       image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&h=400&fit=crop"
     },
-    content: "# Digital Heartbeats: Merging Electronic and Acoustic Worlds\n\nThe debate between electronic and acoustic music has raged for decades..."
+    content: "# Digital Heartbeats: Merging Electronic and Acoustic Worlds\n\nThe debate between electronic and acoustic praxis has raged for decades..."
   },
   {
     frontmatter: {
       id: "rhythm-of-the-city",
       title: {
-        en: "Urban Soundscapes: Finding Music in Metropolitan Chaos",
+        en: "Urban Soundscapes: Finding Praxis in Metropolitan Chaos",
         tr: "Kentsel Ses Manzaraları: Metropol Kaosunda Müzik Bulmak",
         de: "Urbane Klanglandschaften: Musik im metropolitanen Chaos finden"
       },
@@ -105,7 +105,7 @@ const markdownBlogPosts: MarkdownBlogPost[] = [
       category: "praxis",
       image: "https://images.unsplash.com/photo-1514565131-fce0801e5785?w=800&h=400&fit=crop"
     },
-    content: "# Urban Soundscapes: Finding Music in Metropolitan Chaos\n\nEvery morning at 6:47 AM, the construction crew starts work outside my apartment..."
+    content: "# Urban Soundscapes: Finding Praxis in Metropolitan Chaos\n\nEvery morning at 6:47 AM, the construction crew starts work outside my apartment..."
   },
   {
     frontmatter: {

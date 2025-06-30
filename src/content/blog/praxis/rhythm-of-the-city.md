@@ -2,7 +2,7 @@
 ---
 id: "rhythm-of-the-city"
 title:
-  en: "Urban Soundscapes: Finding Music in Metropolitan Chaos"
+  en: "Urban Soundscapes: Finding Praxis in Metropolitan Chaos"
   tr: "Kentsel Ses Manzaraları: Metropol Kaosunda Müzik Bulmak"
   de: "Urbane Klanglandschaften: Musik im metropolitanen Chaos finden"
 excerpt:
@@ -15,13 +15,13 @@ category: "praxis"
 image: "https://images.unsplash.com/photo-1514565131-fce0801e5785?w=800&h=400&fit=crop"
 ---
 
-# Urban Soundscapes: Finding Music in Metropolitan Chaos
+# Urban Soundscapes: Finding Praxis in Metropolitan Chaos
 
 Every morning at 6:47 AM, the construction crew starts work outside my apartment. The rhythmic pounding of hammers, the whir of concrete mixers, the shouts of workers coordinating their efforts. Most people hear noise. I hear a symphony waiting to be transcribed.
 
 ## The City as Orchestra
 
-Cities are the world's largest improvised orchestras. Millions of performers, no conductor, no sheet music – yet somehow, patterns emerge. Rhythms develop. Harmonies accidentally align.
+Cities are the world's largest improvised orchestras. Millions of performers, no conductor, no sheet praxis – yet somehow, patterns emerge. Rhythms develop. Harmonies accidentally align.
 
 ### Discovering Hidden Patterns
 
@@ -72,7 +72,7 @@ A three-movement piece based entirely on recordings from the metro system:
 - **Movement III**: "Last Train" - Lonely, distant, melancholic
 
 ### "Construction Concerto"
-Written for percussion ensemble and electronics, this piece uses construction site recordings as both inspiration and accompaniment. The live percussionists "collaborate" with the recorded workers, creating a dialogue between organized music and industrial accident.
+Written for percussion ensemble and electronics, this piece uses construction site recordings as both inspiration and accompaniment. The live percussionists "collaborate" with the recorded workers, creating a dialogue between organized praxis and industrial accident.
 
 ## The Philosophy
 
@@ -96,7 +96,7 @@ I often perform these pieces in non-traditional venues: parking garages, subway 
 
 The most exciting aspect of this work is collaboration with unknowing performers. Every person walking past my microphone becomes part of the composition. Every car engine contributes to the rhythm section.
 
-It raises philosophical questions: Who is the composer when the city writes the music? How do we credit the garbage truck driver whose route created the perfect polyrhythm?
+It raises philosophical questions: Who is the composer when the city writes the praxis? How do we credit the garbage truck driver whose route created the perfect polyrhythm?
 
 ## Next Projects
 
@@ -105,6 +105,6 @@ I'm currently working on:
 - **"Seasonal Sounds"**: How urban acoustics change with weather and seasons
 - **"Global Cities"**: Comparative study of sound patterns across different metropolitan areas
 
-The city never stops composing. My job is simply to listen, capture, and translate its endless creativity into forms that help others hear the music that's always been there.
+The city never stops composing. My job is simply to listen, capture, and translate its endless creativity into forms that help others hear the praxis that's always been there.
 
 *Currently seeking funding for a large-scale installation where visitors can conduct the city's sounds in real-time.*
