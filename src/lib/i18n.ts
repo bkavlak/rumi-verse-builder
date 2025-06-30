@@ -31,15 +31,15 @@ export const translations = {
     },
     theoria: {
       title: 'Theoria',
-      description: 'Exploring stories through performance'
+      description: 'To endure oneself in a state of contemplation.'
     },
     praxis: {
       title: 'Praxis', 
-      description: 'Creating melodies and rhythms'
+      description: 'It is to become part of the movements within life.'
     },
     poiesis: {
       title: 'Poiesis',
-      description: 'Thoughts and reflections on art and life',
+      description: 'It is to feel that you are truly alive.',
       readMore: 'Read More',
       publishedOn: 'Published on'
     },
@@ -71,21 +71,21 @@ export const translations = {
     },
     theoria: {
       title: 'Theoria',
-      description: 'Performans aracılığıyla hikayeleri keşfetmek'
+      description: 'Temaşa halinde kendi kendine katlanmaktır.'
     },
     praxis: {
       title: 'Praxis',
-      description: 'Melodi ve ritim yaratmak'
+      description: 'Yaşamdaki hareketlere dahil olmaktır.'
     },
     poiesis: {
       title: 'Poiesis',
-      description: 'Sanat ve yaşam üzerine düşünceler ve yansımalar',
+      description: 'Yaşadığını hissetmektir.',
       readMore: 'Devamını Oku',
       publishedOn: 'Yayınlanma tarihi'
     },
     about: {
       title: 'Hakkımda',
-      description: 'Sanatsal yolculuğum hakkında daha fazla bilgi'
+      description: 'Ben kimim? Nerden geldim? Bilmiyorum.'
     }
   },
   de: {
@@ -111,15 +111,15 @@ export const translations = {
     },
     theoria: {
       title: 'Theoria',
-      description: 'Geschichten durch Performance erkunden'
+      description: 'Sich selbst im Zustand der Betrachtung ertragen.'
     },
     praxis: {
       title: 'Praxis',
-      description: 'Melodien und Rhythmen erschaffen'
+      description: 'Sich in die Bewegungen des Lebens einfügen.'
     },
     poiesis: {
       title: 'Poiesis',
-      description: 'Gedanken und Reflexionen über Kunst und Leben',
+      description: 'Zu spüren, dass man lebt.',
       readMore: 'Mehr lesen',
       publishedOn: 'Veröffentlicht am'
     },
