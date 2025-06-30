@@ -7,7 +7,7 @@ import { portfolioItems } from '@/data/portfolio';
 const Praxis = () => {
   const { t } = useLanguage();
 
-  const musicItems = portfolioItems.filter(item => item.category === 'praxis');
+  const praxisItems = portfolioItems.filter(item => item.category === 'praxis');
 
   return (
     <div className="min-h-screen bg-background">
@@ -25,7 +25,7 @@ const Praxis = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {musicItems.map((item) => (
+            {praxisItems.map((item) => (
               <PortfolioCard key={item.id} item={item} />
             ))}
           </div>
