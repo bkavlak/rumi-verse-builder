@@ -2,7 +2,7 @@
 import { Navigation } from '@/components/Navigation';
 import { useLanguage } from '@/hooks/useLanguage';
 import { getMarkdownBlogPosts } from '@/utils/markdownLoader';
-import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Badge } from '@/components/ui/badge';
 
 const Poiesis = () => {
@@ -28,37 +28,41 @@ const Poiesis = () => {
             </p>
           </div>
 
-          <Accordion type="single" collapsible className="space-y-4">
-            {poiesisItems.map((item) => (
-              <AccordionItem key={item.id} value={item.id} className="border rounded-lg">
-                <AccordionTrigger className="px-6 py-4 hover:no-underline">
-                  <div className="flex flex-col items-start text-left w-full">
-                    <div className="flex items-center gap-2 mb-2">
-                      <h3 className="text-lg font-semibold">{item.title[language]}</h3>
-                      <Badge variant="secondary">poiesis</Badge>
+          {poiesisItems.length > 0 && (
+            <Tabs defaultValue={poiesisItems[0].id} className="w-full">
+              <TabsList className="grid w-full grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                {poiesisItems.map((item) => (
+                  <TabsTrigger key={item.id} value={item.id} className="flex items-center gap-2">
+                    {item.title[language]}
+                    <Badge variant="secondary" className="text-xs">poiesis</Badge>
+                  </TabsTrigger>
+                ))}
+              </TabsList>
+              
+              {poiesisItems.map((item) => (
+                <TabsContent key={item.id} value={item.id} className="mt-6">
+                  <div className="border rounded-lg p-6">
+                    <div className="mb-4">
+                      <h2 className="text-2xl font-semibold mb-2">{item.title[language]}</h2>
+                      <p className="text-muted-foreground mb-4">{item.excerpt[language]}</p>
+                      <div className="flex flex-wrap gap-2">
+                        {item.tags.map((tag) => (
+                          <Badge key={tag} variant="outline" className="text-xs">
+                            {tag}
+                          </Badge>
+                        ))}
+                      </div>
                     </div>
-                    <p className="text-sm text-muted-foreground">
-                      {item.excerpt[language]}
-                    </p>
-                    <div className="flex flex-wrap gap-1 mt-2">
-                      {item.tags.map((tag) => (
-                        <Badge key={tag} variant="outline" className="text-xs">
-                          {tag}
-                        </Badge>
-                      ))}
+                    <div className="prose prose-sm max-w-none text-muted-foreground">
+                      <div className="whitespace-pre-wrap">
+                        {item.content[language]}
+                      </div>
                     </div>
                   </div>
-                </AccordionTrigger>
-                <AccordionContent className="px-6 pb-4">
-                  <div className="prose prose-sm max-w-none text-muted-foreground">
-                    <div className="whitespace-pre-wrap">
-                      {item.content[language]}
-                    </div>
-                  </div>
-                </AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
+                </TabsContent>
+              ))}
+            </Tabs>
+          )}
         </div>
       </section>
     </div>
