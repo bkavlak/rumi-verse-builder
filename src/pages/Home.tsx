@@ -25,17 +25,17 @@ const Home = () => {
       <footer className="py-12 px-4 sm:px-6 lg:px-8 bg-muted/50 border-t border-border/50">
         <div className="max-w-7xl mx-auto text-center">
           <p className="text-muted-foreground mb-2">
-            © 2024 rumi jr. all rights are for human.
+            {t('home.copyright')}
           </p>
           <p className="text-sm text-muted-foreground">
-            This work is licensed under a{' '}
+            {t('home.license')}{' '}
             <a 
               href="https://creativecommons.org/licenses/by/4.0/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-primary hover:text-primary/80 underline"
             >
-              Creative Commons Attribution 4.0 International License
+              {t('home.licenseLink')}
             </a>
           </p>
         </div>

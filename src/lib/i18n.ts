@@ -1,3 +1,4 @@
+
 export const languages = {
   en: 'English',
   tr: 'Türkçe',
@@ -23,7 +24,10 @@ export const translations = {
       viewAll: 'View All',
       theoria: 'Theoria',
       praxis: 'Praxis',
-      poiesis: 'Poiesis'
+      poiesis: 'Poiesis',
+      copyright: '© 2024 rumi jr. all rights are for human.',
+      license: 'This work is licensed under a',
+      licenseLink: 'Creative Commons Attribution 4.0 International License'
     },
     theoria: {
       title: 'Theoria Portfolio',
@@ -60,7 +64,10 @@ export const translations = {
       viewAll: 'Tümünü Gör',
       theoria: 'Theoria',
       praxis: 'Praxis',
-      poiesis: 'Poiesis'
+      poiesis: 'Poiesis',
+      copyright: '© 2024 rumi jr. tüm haklar insanlığa aittir.',
+      license: 'Bu eser',
+      licenseLink: 'Creative Commons Atıf 4.0 Uluslararası Lisansı'
     },
     theoria: {
       title: 'Theoria Portföyü',
@@ -97,7 +104,10 @@ export const translations = {
       viewAll: 'Alle anzeigen',
       theoria: 'Theoria',
       praxis: 'Praxis',
-      poiesis: 'Poiesis'
+      poiesis: 'Poiesis',
+      copyright: '© 2024 rumi jr. alle Rechte gehören der Menschheit.',
+      license: 'Dieses Werk ist lizenziert unter einer',
+      licenseLink: 'Creative Commons Namensnennung 4.0 International Lizenz'
     },
     theoria: {
       title: 'Theoria Portfolio',
