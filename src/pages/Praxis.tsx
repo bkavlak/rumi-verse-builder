@@ -2,12 +2,12 @@
 import { Navigation } from '@/components/Navigation';
 import { PortfolioCard } from '@/components/PortfolioCard';
 import { useLanguage } from '@/hooks/useLanguage';
-import { portfolioItems } from '@/data/portfolio';
+import { getPortfolioItemsByCategory } from '@/utils/markdownLoader';
 
 const Praxis = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
 
-  const praxisItems = portfolioItems.filter(item => item.category === 'praxis');
+  const praxisItems = getPortfolioItemsByCategory('praxis', language);
 
   return (
     <div className="min-h-screen bg-background">

@@ -1,14 +1,8 @@
 
 ---
 id: "rhythm-of-the-city"
-title:
-  en: "Urban Soundscapes: Finding Praxis in Metropolitan Chaos"
-  tr: "Kentsel Ses Manzaraları: Metropol Kaosunda Müzik Bulmak"
-  de: "Urbane Klanglandschaften: Musik im metropolitanen Chaos finden"
-excerpt:
-  en: "How the sounds of city life inspire and inform my musical compositions"
-  tr: "Şehir yaşamının seslerinin müzik kompozisyonlarımı nasıl ilham verdiği ve şekillendirdiği"
-  de: "Wie die Klänge des Stadtlebens meine musikalischen Kompositionen inspirieren und prägen"
+title: "Urban Soundscapes: Finding Praxis in Metropolitan Chaos"
+excerpt: "How the sounds of city life inspire and inform my musical compositions"
 date: "2024-05-25"
 tags: ["urban", "field recording", "ambient", "composition", "soundscape"]
 category: "praxis"

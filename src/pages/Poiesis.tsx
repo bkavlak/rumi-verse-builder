@@ -2,10 +2,12 @@
 import { Navigation } from '@/components/Navigation';
 import { BlogCard } from '@/components/BlogCard';
 import { useLanguage } from '@/hooks/useLanguage';
-import { blogPosts } from '@/data/portfolio';
+import { getBlogPostsByCategory } from '@/utils/markdownLoader';
 
 const Poiesis = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
+
+  const poiesisItems = getBlogPostsByCategory('poiesis', language);
 
   return (
     <div className="min-h-screen bg-background">
@@ -23,7 +25,7 @@ const Poiesis = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {blogPosts.map((post) => (
+            {poiesisItems.map((post) => (
               <BlogCard key={post.id} post={post} />
             ))}
           </div>

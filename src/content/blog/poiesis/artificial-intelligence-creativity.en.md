@@ -1,14 +1,8 @@
 
 ---
 id: "artificial-intelligence-creativity"
-title:
-  en: "Human vs. Machine: What AI Teaches Us About Creativity"
-  tr: "İnsan ve Makine: Yapay Zeka Yaratıcılık Hakkında Bize Ne Öğretiyor"
-  de: "Mensch vs. Maschine: Was KI uns über Kreativität lehrt"
-excerpt:
-  en: "Exploring how artificial intelligence challenges our understanding of creativity and artistic expression"
-  tr: "Yapay zekanın yaratıcılık ve sanatsal ifade anlayışımıza nasıl meydan okuduğunu keşfetmek"
-  de: "Erforschung, wie künstliche Intelligenz unser Verständnis von Kreativität und künstlerischem Ausdruck herausfordert"
+title: "Human vs. Machine: What AI Teaches Us About Creativity"
+excerpt: "Exploring how artificial intelligence challenges our understanding of creativity and artistic expression"
 date: "2024-05-30"
 tags: ["AI", "creativity", "technology", "philosophy", "future"]
 category: "poiesis"

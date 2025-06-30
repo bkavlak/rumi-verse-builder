@@ -1,14 +1,8 @@
 
 ---
 id: "art-and-solitude"
-title:
-  en: "The Necessary Loneliness of Creation"
-  tr: "Yaratımın Gerekli Yalnızlığı"
-  de: "Die notwendige Einsamkeit der Schöpfung"
-excerpt:
-  en: "Why artists must learn to be alone with their work, and how solitude becomes a creative tool"
-  tr: "Sanatçıların neden çalışmalarıyla yalnız kalmayı öğrenmesi gerektiği ve yalnızlığın nasıl yaratıcı bir araç haline geldiği"
-  de: "Warum Künstler lernen müssen, mit ihrer Arbeit allein zu sein, und wie Einsamkeit zu einem kreativen Werkzeug wird"
+title: "The Necessary Loneliness of Creation"
+excerpt: "Why artists must learn to be alone with their work, and how solitude becomes a creative tool"
 date: "2024-06-05"
 tags: ["creativity", "solitude", "process", "philosophy", "reflection"]
 category: "poiesis"

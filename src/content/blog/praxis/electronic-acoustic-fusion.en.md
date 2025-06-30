@@ -1,14 +1,8 @@
 
 ---
 id: "electronic-acoustic-fusion"
-title:
-  en: "Digital Heartbeats: Merging Electronic and Acoustic Worlds"
-  tr: "Dijital Kalp Atışları: Elektronik ve Akustik Dünyaları Birleştirmek"
-  de: "Digitale Herzschläge: Verschmelzung elektronischer und akustischer Welten"
-excerpt:
-  en: "How modern technology can enhance rather than replace traditional musical expression"
-  tr: "Modern teknolojinin geleneksel müzik ifadesini nasıl değiştirmek yerine geliştireceği"
-  de: "Wie moderne Technologie traditionelle musikalische Ausdrucksformen verbessern statt ersetzen kann"
+title: "Digital Heartbeats: Merging Electronic and Acoustic Worlds"
+excerpt: "How modern technology can enhance rather than replace traditional musical expression"
 date: "2024-06-10"
 tags: ["electronic", "acoustic", "fusion", "technology", "composition"]
 category: "praxis"

@@ -1,14 +1,8 @@
 
 ---
 id: "shakespeare-modern-interpretation"
-title:
-  en: "Shakespeare in the Modern World: A Director's Perspective"
-  tr: "Modern Dünyada Shakespeare: Bir Yönetmenin Bakış Açısı"
-  de: "Shakespeare in der modernen Welt: Die Perspektive eines Regisseurs"
-excerpt:
-  en: "Exploring how classical theoria can speak to contemporary audiences through innovative staging and interpretation"
-  tr: "Yenilikçi sahneleme ve yorum yoluyla klasik tiyatronun çağdaş izleyicilere nasıl hitap edebileceğini keşfetmek"
-  de: "Erforschung, wie klassisches Theoria durch innovative Inszenierung und Interpretation zeitgenössische Zuschauer ansprechen kann"
+title: "Shakespeare in the Modern World: A Director's Perspective"
+excerpt: "Exploring how classical theoria can speak to contemporary audiences through innovative staging and interpretation"
 date: "2024-06-15"
 tags: ["theoria", "shakespeare", "classical", "modern interpretation"]
 category: "theoria"
