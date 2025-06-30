@@ -2,6 +2,7 @@
 import { Navigation } from '@/components/Navigation';
 import { useLanguage } from '@/hooks/useLanguage';
 import Gravatar from '@/components/Gravatar';
+import { SocialLinks } from '@/components/SocialLinks';
 
 const Home = () => {
   const { t } = useLanguage();
@@ -21,9 +22,12 @@ const Home = () => {
           <h1 className="text-4xl sm:text-6xl font-bold text-primary mb-8">
             {t('home.title')}
           </h1>
-          <p className="text-xl sm:text-2xl text-muted-foreground animate-fade-in animation-delay-500">
+          <p className="text-xl sm:text-2xl text-muted-foreground animate-fade-in animation-delay-500 mb-8">
             {t('home.subtitle')}
           </p>
+          
+          {/* Social Links */}
+          <SocialLinks className="justify-center animate-fade-in animation-delay-500" />
         </div>
       </section>
 
