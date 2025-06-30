@@ -1,8 +1,8 @@
+
 import { Navigation } from '@/components/Navigation';
 import { PortfolioCard } from '@/components/PortfolioCard';
 import { BlogCard } from '@/components/BlogCard';
 import { Button } from '@/components/ui/button';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { useLanguage } from '@/hooks/useLanguage';
 import { portfolioItems, blogPosts } from '@/data/portfolio';
 import { Link } from 'react-router-dom';
@@ -13,8 +13,6 @@ const Home = () => {
 
   const latestPortfolio = portfolioItems.slice(0, 3);
   const latestBlog = blogPosts.slice(0, 2);
-  const theaterItems = portfolioItems.filter(item => item.category === 'theater').slice(0, 2);
-  const musicItems = portfolioItems.filter(item => item.category === 'music').slice(0, 2);
 
   return (
     <div className="min-h-screen bg-background">
@@ -47,85 +45,29 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Three Tabs Section */}
+      {/* Blog Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
         <div className="max-w-7xl mx-auto">
-          <Tabs defaultValue="theoria" className="w-full">
-            <TabsList className="grid w-full grid-cols-3 mb-8 h-12">
-              <TabsTrigger value="theoria" className="flex items-center gap-2 text-sm">
-                <Theater className="h-4 w-4" />
-                {t('home.theoria')}
-              </TabsTrigger>
-              <TabsTrigger value="praxis" className="flex items-center gap-2 text-sm">
-                <Music className="h-4 w-4" />
-                {t('home.praxis')}
-              </TabsTrigger>
-              <TabsTrigger value="poetika" className="flex items-center gap-2 text-sm">
-                <BookOpen className="h-4 w-4" />
-                {t('home.poetika')}
-              </TabsTrigger>
-            </TabsList>
-            
-            <TabsContent value="theoria" className="space-y-6">
-              <div className="text-center mb-8">
-                <h3 className="text-2xl font-bold text-primary mb-4">{t('theater.title')}</h3>
-                <p className="text-muted-foreground mb-6">{t('theater.description')}</p>
-              </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                {theaterItems.map((item) => (
-                  <PortfolioCard key={item.id} item={item} />
-                ))}
-              </div>
-              <div className="text-center mt-8">
-                <Button asChild variant="outline" className="flex items-center gap-2 mx-auto">
-                  <Link to="/theater">
-                    {t('home.viewAll')}
-                    <ArrowRight className="h-4 w-4" />
-                  </Link>
-                </Button>
-              </div>
-            </TabsContent>
-            
-            <TabsContent value="praxis" className="space-y-6">
-              <div className="text-center mb-8">
-                <h3 className="text-2xl font-bold text-primary mb-4">{t('music.title')}</h3>
-                <p className="text-muted-foreground mb-6">{t('music.description')}</p>
-              </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                {musicItems.map((item) => (
-                  <PortfolioCard key={item.id} item={item} />
-                ))}
-              </div>
-              <div className="text-center mt-8">
-                <Button asChild variant="outline" className="flex items-center gap-2 mx-auto">
-                  <Link to="/music">
-                    {t('home.viewAll')}
-                    <ArrowRight className="h-4 w-4" />
-                  </Link>
-                </Button>
-              </div>
-            </TabsContent>
-            
-            <TabsContent value="poetika" className="space-y-6">
-              <div className="text-center mb-8">
-                <h3 className="text-2xl font-bold text-primary mb-4">{t('blog.title')}</h3>
-                <p className="text-muted-foreground mb-6">{t('blog.description')}</p>
-              </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                {latestBlog.map((post) => (
-                  <BlogCard key={post.id} post={post} />
-                ))}
-              </div>
-              <div className="text-center mt-8">
-                <Button asChild variant="outline" className="flex items-center gap-2 mx-auto">
-                  <Link to="/blog">
-                    {t('home.viewAll')}
-                    <ArrowRight className="h-4 w-4" />
-                  </Link>
-                </Button>
-              </div>
-            </TabsContent>
-          </Tabs>
+          <div className="text-center mb-8">
+            <h3 className="text-2xl font-bold text-primary mb-4 flex items-center justify-center gap-2">
+              <BookOpen className="h-6 w-6" />
+              {t('blog.title')}
+            </h3>
+            <p className="text-muted-foreground mb-6">{t('blog.description')}</p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {latestBlog.map((post) => (
+              <BlogCard key={post.id} post={post} />
+            ))}
+          </div>
+          <div className="text-center mt-8">
+            <Button asChild variant="outline" className="flex items-center gap-2 mx-auto">
+              <Link to="/blog">
+                {t('home.viewAll')}
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+            </Button>
+          </div>
         </div>
       </section>
 
