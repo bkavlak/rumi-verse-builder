@@ -25,7 +25,7 @@ export const translations = {
       theoria: 'Theoria',
       praxis: 'Praxis',
       poiesis: 'Poiesis',
-      copyright: '© 2024 rumi jr. all rights are for human.',
+      copyright: '© 2025 rumi jr. all rights are for human.',
       license: 'This work is licensed under a',
       licenseLink: 'Creative Commons Attribution 4.0 International License'
     },
@@ -65,7 +65,7 @@ export const translations = {
       theoria: 'Theoria',
       praxis: 'Praxis',
       poiesis: 'Poiesis',
-      copyright: '© 2024 rumi jr. tüm haklar insanlığa aittir.',
+      copyright: '© 2025 rumi jr. tüm haklar insanlığa aittir.',
       license: 'Bu eser',
       licenseLink: 'Creative Commons Atıf 4.0 Uluslararası Lisansı'
     },
@@ -105,7 +105,7 @@ export const translations = {
       theoria: 'Theoria',
       praxis: 'Praxis',
       poiesis: 'Poiesis',
-      copyright: '© 2024 rumi jr. alle Rechte gehören der Menschheit.',
+      copyright: '© 2025 rumi jr. alle Rechte gehören der Menschheit.',
       license: 'Dieses Werk ist lizenziert unter einer',
       licenseLink: 'Creative Commons Namensnennung 4.0 International Lizenz'
     },

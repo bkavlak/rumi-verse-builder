@@ -1,7 +1,7 @@
 
 ---
 id: "rhythm-of-the-city"
-title: "Urban Soundscapes: Finding Praxis in Metropolitan Chaos"
+title: "[mock] Urban Soundscapes: Finding Praxis in Metropolitan Chaos"
 excerpt: "How the sounds of city life inspire and inform my musical compositions"
 date: "2024-05-25"
 tags: ["urban", "field recording", "ambient", "composition", "soundscape"]

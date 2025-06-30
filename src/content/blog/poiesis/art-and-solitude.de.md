@@ -1,7 +1,7 @@
 
 ---
 id: "art-and-solitude"
-title: "Die notwendige Einsamkeit der Schöpfung"
+title: "[mock] Die notwendige Einsamkeit der Schöpfung"
 excerpt: "Warum Künstler lernen müssen, mit ihrer Arbeit allein zu sein, und wie Einsamkeit zu einem kreativen Werkzeug wird"
 date: "2024-06-05"
 tags: ["creativity", "solitude", "process", "philosophy", "reflection"]

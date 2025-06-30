@@ -1,7 +1,7 @@
 
 ---
 id: "artificial-intelligence-creativity"
-title: "Mensch vs. Maschine: Was KI uns über Kreativität lehrt"
+title: "[mock] Mensch vs. Maschine: Was KI uns über Kreativität lehrt"
 excerpt: "Erforschung, wie künstliche Intelligenz unser Verständnis von Kreativität und künstlerischem Ausdruck herausfordert"
 date: "2024-05-30"
 tags: ["AI", "creativity", "technology", "philosophy", "future"]

@@ -1,7 +1,7 @@
 
 ---
 id: "electronic-acoustic-fusion"
-title: "Digitale Herzschläge: Verschmelzung elektronischer und akustischer Welten"
+title: "[mock] Digitale Herzschläge: Verschmelzung elektronischer und akustischer Welten"
 excerpt: "Wie moderne Technologie traditionelle musikalische Ausdrucksformen verbessern statt ersetzen kann"
 date: "2024-06-10"
 tags: ["electronic", "acoustic", "fusion", "technology", "composition"]

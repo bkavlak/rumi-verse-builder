@@ -1,7 +1,7 @@
 
 ---
 id: "electronic-acoustic-fusion"
-title: "Digital Heartbeats: Merging Electronic and Acoustic Worlds"
+title: "[mock] Digital Heartbeats: Merging Electronic and Acoustic Worlds"
 excerpt: "How modern technology can enhance rather than replace traditional musical expression"
 date: "2024-06-10"
 tags: ["electronic", "acoustic", "fusion", "technology", "composition"]

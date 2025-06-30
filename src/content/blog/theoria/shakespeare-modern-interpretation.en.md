@@ -1,7 +1,7 @@
 
 ---
 id: "shakespeare-modern-interpretation"
-title: "Shakespeare in the Modern World: A Director's Perspective"
+title: "[mock] Shakespeare in the Modern World: A Director's Perspective"
 excerpt: "Exploring how classical theoria can speak to contemporary audiences through innovative staging and interpretation"
 date: "2024-06-15"
 tags: ["theoria", "shakespeare", "classical", "modern interpretation"]

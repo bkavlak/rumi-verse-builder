@@ -1,7 +1,7 @@
 
 ---
 id: "dance-theoria-fusion"
-title: "Bedenler Konuştuğunda: Dans Tiyatrosu Sanatı"
+title: "[mock] Bedenler Konuştuğunda: Dans Tiyatrosu Sanatı"
 excerpt: "Çağdaş dans tiyatrosunda hareket ve anlatımın güçlü kesişimini keşfetmek"
 date: "2024-05-20"
 tags: ["dance", "theoria", "movement", "contemporary", "fusion"]

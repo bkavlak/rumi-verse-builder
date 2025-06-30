@@ -1,7 +1,7 @@
 
 ---
 id: "art-and-solitude"
-title: "Yaratımın Gerekli Yalnızlığı"
+title: "[mock] Yaratımın Gerekli Yalnızlığı"
 excerpt: "Sanatçıların neden çalışmalarıyla yalnız kalmayı öğrenmesi gerektiği ve yalnızlığın nasıl yaratıcı bir araç haline geldiği"
 date: "2024-06-05"
 tags: ["creativity", "solitude", "process", "philosophy", "reflection"]

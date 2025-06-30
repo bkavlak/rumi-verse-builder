@@ -1,7 +1,7 @@
 
 ---
 id: "artificial-intelligence-creativity"
-title: "İnsan ve Makine: Yapay Zeka Yaratıcılık Hakkında Bize Ne Öğretiyor"
+title: "[mock] İnsan ve Makine: Yapay Zeka Yaratıcılık Hakkında Bize Ne Öğretiyor"
 excerpt: "Yapay zekanın yaratıcılık ve sanatsal ifade anlayışımıza nasıl meydan okuduğunu keşfetmek"
 date: "2024-05-30"
 tags: ["AI", "creativity", "technology", "philosophy", "future"]

@@ -1,7 +1,7 @@
 
 ---
 id: "art-and-solitude"
-title: "The Necessary Loneliness of Creation"
+title: "[mock] The Necessary Loneliness of Creation"
 excerpt: "Why artists must learn to be alone with their work, and how solitude becomes a creative tool"
 date: "2024-06-05"
 tags: ["creativity", "solitude", "process", "philosophy", "reflection"]

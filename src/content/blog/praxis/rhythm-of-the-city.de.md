@@ -1,7 +1,7 @@
 
 ---
 id: "rhythm-of-the-city"
-title: "Urbane Klanglandschaften: Musik im metropolitanen Chaos finden"
+title: "[mock] Urbane Klanglandschaften: Musik im metropolitanen Chaos finden"
 excerpt: "Wie die Klänge des Stadtlebens meine musikalischen Kompositionen inspirieren und prägen"
 date: "2024-05-25"
 tags: ["urban", "field recording", "ambient", "composition", "soundscape"]

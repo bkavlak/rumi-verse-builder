@@ -1,7 +1,7 @@
 
 ---
 id: "rhythm-of-the-city"
-title: "Kentsel Ses Manzaraları: Metropol Kaosunda Müzik Bulmak"
+title: "[mock] Kentsel Ses Manzaraları: Metropol Kaosunda Müzik Bulmak"
 excerpt: "Şehir yaşamının seslerinin müzik kompozisyonlarımı nasıl ilham verdiği ve şekillendirdiği"
 date: "2024-05-25"
 tags: ["urban", "field recording", "ambient", "composition", "soundscape"]

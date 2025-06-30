@@ -1,7 +1,7 @@
 
 ---
 id: "artificial-intelligence-creativity"
-title: "Human vs. Machine: What AI Teaches Us About Creativity"
+title: "[mock] Human vs. Machine: What AI Teaches Us About Creativity"
 excerpt: "Exploring how artificial intelligence challenges our understanding of creativity and artistic expression"
 date: "2024-05-30"
 tags: ["AI", "creativity", "technology", "philosophy", "future"]

@@ -1,7 +1,7 @@
 
 ---
 id: "shakespeare-modern-interpretation"
-title: "Modern Dünyada Shakespeare: Bir Yönetmenin Bakış Açısı"
+title: "[mock] Modern Dünyada Shakespeare: Bir Yönetmenin Bakış Açısı"
 excerpt: "Yenilikçi sahneleme ve yorum yoluyla klasik tiyatronun çağdaş izleyicilere nasıl hitap edebileceğini keşfetmek"
 date: "2024-06-15"
 tags: ["theoria", "shakespeare", "classical", "modern interpretation"]

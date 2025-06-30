@@ -1,7 +1,7 @@
 
 ---
 id: "electronic-acoustic-fusion"
-title: "Dijital Kalp Atışları: Elektronik ve Akustik Dünyaları Birleştirmek"
+title: "[mock] Dijital Kalp Atışları: Elektronik ve Akustik Dünyaları Birleştirmek"
 excerpt: "Modern teknolojinin geleneksel müzik ifadesini nasıl değiştirmek yerine geliştireceği"
 date: "2024-06-10"
 tags: ["electronic", "acoustic", "fusion", "technology", "composition"]

@@ -1,7 +1,7 @@
 
 ---
 id: "dance-theoria-fusion"
-title: "When Bodies Speak: The Art of Dance Theoria"
+title: "[mock] When Bodies Speak: The Art of Dance Theoria"
 excerpt: "Exploring the powerful intersection of movement and narrative in contemporary dance theoria"
 date: "2024-05-20"
 tags: ["dance", "theoria", "movement", "contemporary", "fusion"]
