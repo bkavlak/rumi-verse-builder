@@ -30,11 +30,11 @@ export const translations = {
       licenseLink: 'Creative Commons Attribution 4.0 International License'
     },
     theoria: {
-      title: 'Theoria Portfolio',
+      title: 'Theoria',
       description: 'Exploring stories through performance'
     },
     praxis: {
-      title: 'Praxis Portfolio', 
+      title: 'Praxis', 
       description: 'Creating melodies and rhythms'
     },
     poiesis: {
@@ -70,11 +70,11 @@ export const translations = {
       licenseLink: 'Creative Commons Atıf 4.0 Uluslararası Lisansı'
     },
     theoria: {
-      title: 'Theoria Portföyü',
+      title: 'Theoria',
       description: 'Performans aracılığıyla hikayeleri keşfetmek'
     },
     praxis: {
-      title: 'Praxis Portföyü',
+      title: 'Praxis',
       description: 'Melodi ve ritim yaratmak'
     },
     poiesis: {
@@ -110,11 +110,11 @@ export const translations = {
       licenseLink: 'Creative Commons Namensnennung 4.0 International Lizenz'
     },
     theoria: {
-      title: 'Theoria Portfolio',
+      title: 'Theoria',
       description: 'Geschichten durch Performance erkunden'
     },
     praxis: {
-      title: 'Praxis Portfolio',
+      title: 'Praxis',
       description: 'Melodien und Rhythmen erschaffen'
     },
     poiesis: {

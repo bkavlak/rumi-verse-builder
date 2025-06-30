@@ -1,7 +1,7 @@
 
 ---
 id: "dance-theoria-fusion"
-title: "Wenn Körper sprechen: Die Kunst des Tanztheorias"
+title: "[mock] Wenn Körper sprechen: Die Kunst des Tanztheorias"
 excerpt: "Die kraftvolle Schnittstelle von Bewegung und Erzählung im zeitgenössischen Tanztheoria erkunden"
 date: "2024-05-20"
 tags: ["dance", "theoria", "movement", "contemporary", "fusion"]
