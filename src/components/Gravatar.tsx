@@ -11,7 +11,7 @@ const Gravatar: React.FC<GravatarProps> = ({
   size = 120,
   className = "" 
 }) => {
-  const gravatarUrl = `https://gravatar.com/batuhankavlak4.png?s=${size}`;
+  const gravatarUrl = `https://www.gravatar.com/avatar/a877b3fc0ad866d11ca5a67dbf9dad22?s=${size}&d=mp`;
 
   return (
     <Avatar className={`${className}`} style={{ width: size, height: size }}>
