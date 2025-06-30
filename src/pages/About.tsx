@@ -18,6 +18,11 @@ const About = () => {
       bio: "Tiyatro ve müziğin kesişiminde tutkulu bir sanatçıyım. Çalışmalarım geleneksel ve deneysel formlar aracılığıyla çağdaş temaları keşfederek, izleyicilere meydan okuyan ve onları ilham veren sürükleyici deneyimler yaratır.",
       journey: "Sanatsal yolculuğum çocuklukta, vatanımın zengin kültürel mirasından etkilenerek başladı. Yıllar içinde, Doğu ve Batı sanat geleneklerini harmanlayan benzersiz bir ses geliştirdim.",
       philosophy: "Sanatın erişilebilir, dönüştürücü ve derinlemesine insani olması gerektiğine inanıyorum. Performanslarım ve kompozisyonlarım aracılığıyla bağlantı ve anlayış anları yaratmaya çalışıyorum."
+    },
+    de: {
+      bio: "Ich bin ein Künstler, der sich leidenschaftlich für die Schnittstelle zwischen Theoria und Praxis interessiert. Meine Arbeit erforscht zeitgenössische Themen durch traditionelle und experimentelle Formen und schafft immersive Erfahrungen, die das Publikum herausfordern und inspirieren.",
+      journey: "Meine künstlerische Reise begann in der Kindheit, beeinflusst vom reichen kulturellen Erbe meiner Heimat. Im Laufe der Jahre habe ich eine einzigartige Stimme entwickelt, die östliche und westliche Kunsttraditionen miteinander verbindet.",
+      philosophy: "Ich glaube, dass Kunst zugänglich, transformativ und zutiefst menschlich sein sollte. Durch meine Aufführungen und Kompositionen bemühe ich mich, Momente der Verbindung und des Verständnisses zu schaffen."
     }
   };
 
