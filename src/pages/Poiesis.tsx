@@ -25,6 +25,7 @@ const Poiesis = () => {
               {t('poiesis.title')}
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              {t('poiesis.description')}
             </p>
           </div>
 
