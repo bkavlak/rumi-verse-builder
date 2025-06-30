@@ -1,6 +1,7 @@
 
 import { Navigation } from '@/components/Navigation';
 import { useLanguage } from '@/hooks/useLanguage';
+import Gravatar from '@/components/Gravatar';
 
 const Home = () => {
   const { t } = useLanguage();
@@ -12,6 +13,11 @@ const Home = () => {
       {/* Title and Subtitle Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 pt-32">
         <div className="max-w-7xl mx-auto text-center">
+          {/* Gravatar Profile Image */}
+          <div className="mb-8 flex justify-center">
+            <Gravatar size={120} className="animate-fade-in" />
+          </div>
+          
           <h1 className="text-4xl sm:text-6xl font-bold text-primary mb-8">
             {t('home.title')}
           </h1>
