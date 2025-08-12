@@ -2,7 +2,7 @@
 id: "oyleyse-baslasin"
 title: "Öyleyse Başlasın!"
 excerpt: "Öyleyse başlasın! Üç… üç… üç… bir ya da sıfır."
-date: "2025-08-12"
+date: "2025-08-18"
 tags: ["poiesis", "şiir", "deneme"]
 category: "poiesis"
 ---
