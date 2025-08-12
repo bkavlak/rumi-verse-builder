@@ -13,6 +13,16 @@ interface BlogCardProps {
 export const BlogCard = ({ post }: BlogCardProps) => {
   const { language, t } = useLanguage();
 
+  const dateString = (() => {
+    const d = new Date(post.date);
+    if (isNaN(d.getTime())) return post.date || '';
+    try {
+      return d.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
+    } catch {
+      return post.date || '';
+    }
+  })();
+
   return (
     <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
       {post.image && (
@@ -32,7 +42,7 @@ export const BlogCard = ({ post }: BlogCardProps) => {
         </CardTitle>
         <div className="flex items-center gap-2 text-sm text-muted-foreground">
           <Calendar className="h-4 w-4" />
-          {t('poiesis.publishedOn')} {new Date(post.date).toLocaleDateString()}
+          {t('poiesis.publishedOn')} {dateString}
         </div>
       </CardHeader>
       <CardContent>
