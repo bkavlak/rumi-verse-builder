@@ -5,7 +5,7 @@ import { Badge } from '@/components/ui/badge';
 import { BlogPost } from '@/data/portfolio';
 import { useLanguage } from '@/hooks/useLanguage';
 import { Calendar, ArrowRight } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 interface BlogCardProps {
   post: BlogPost;
@@ -23,6 +23,11 @@ export const BlogCard = ({ post }: BlogCardProps) => {
       return post.date || '';
     }
   })();
+
+  const location = useLocation();
+  const categorySlug = location.pathname.split('/')[1] || 'poiesis';
+  const readAction = language === 'tr' ? 'oku' : language === 'de' ? 'lesen' : 'read';
+  const readLabel = `${categorySlug}.${readAction}`;
 
   return (
     <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
@@ -60,8 +65,8 @@ export const BlogCard = ({ post }: BlogCardProps) => {
         </div>
 
         <Button asChild variant="outline" className="flex items-center gap-2 group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
-          <Link to={`/poiesis/${post.id}`} aria-label={`${t('poiesis.readMore')} - ${post.title[language]}`}>
-            {t('poiesis.readMore')}
+          <Link to={`/poiesis/${post.id}`} aria-label={`${post.title[language]} — ${readLabel}`}>
+            {readLabel}
             <ArrowRight className="h-4 w-4" />
           </Link>
         </Button>
