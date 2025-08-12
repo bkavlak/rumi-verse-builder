@@ -1,5 +1,5 @@
 import { useEffect, useMemo } from 'react';
-import { useParams, Link, useNavigate } from 'react-router-dom';
+import { useParams, Link, useNavigate, useLocation } from 'react-router-dom';
 import { Navigation } from '@/components/Navigation';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -11,6 +11,10 @@ const PoiesisPost = () => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
   const { language, t } = useLanguage();
+  const location = useLocation();
+  const categorySlug = location.pathname.split('/')[1] || 'poiesis';
+  const backAction = language === 'tr' ? 'geri' : language === 'de' ? 'zurück' : 'back';
+  const backLabel = `${categorySlug}.${backAction}`;
 
   const post = useMemo(() => {
     const posts = getMarkdownBlogPosts(language);
@@ -57,8 +61,8 @@ const PoiesisPost = () => {
       <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto">
           <div className="mb-8">
-            <Link to="/poiesis" className="text-sm text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-2">
-              <ArrowLeft className="h-4 w-4" /> {t('common.backToList') || 'Back to Poiesis'}
+            <Link to="/poiesis" aria-label={`${backLabel}`} className="text-sm text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-2">
+              <ArrowLeft className="h-4 w-4" /> {backLabel}
             </Link>
           </div>
 
