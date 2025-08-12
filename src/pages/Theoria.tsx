@@ -16,7 +16,7 @@ const Theoria = () => {
               {t('theoria.title')}
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              {t('theoria.description')}
+              To unfold oneself in a state of contemplation.
             </p>
           </div>
         </div>
