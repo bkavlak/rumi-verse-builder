@@ -18,10 +18,10 @@ Thirty-one or zero.
 So thirty. Thirty-one or thirty.
 
 I say let everything begin at this age.
-I don’t mean everything — I say everything.
+I don’t mean every-thing — I say everything.
 
 Let everything begin at this age.
-My writings, which even I have not looked at in the face,
+My writings, which even I have not looked at the face,
 Strings of words lined up in a row
 Adorned with typos and numerical trash.
 
@@ -39,7 +39,7 @@ that I expect nothing from anyone.
 Yes, yes, yes. That’s really how it is!
 The weather truly is beyond prediction.
 Everyone has an opinion about
-what’s going on in the realm above months,
+what’s going on in the realm above the moon,
 but only a few in this world can crack a walnut with their bare hands.
 
 In this world—which, for those who know, is a symbol—
