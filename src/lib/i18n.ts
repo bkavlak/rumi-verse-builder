@@ -31,7 +31,7 @@ export const translations = {
     },
     theoria: {
       title: 'Theoria',
-      description: 'To endure oneself in a state of contemplation.'
+      description: 'To fold oneself in a state of contemplation.'
     },
     praxis: {
       title: 'Praxis', 
@@ -43,7 +43,7 @@ export const translations = {
     },
     about: {
       title: 'About Me',
-      description: 'Who am I? I do not know.'
+      description: 'Who am I? I dunno.'
     }
   },
   tr: {
@@ -107,7 +107,7 @@ export const translations = {
     },
     theoria: {
       title: 'Theoria',
-      description: 'Sich selbst im Zustand der Betrachtung ertragen.'
+      description: 'Sich in einen Zustand der Kontemplation versetzen.'
     },
     praxis: {
       title: 'Praxis',
@@ -119,7 +119,7 @@ export const translations = {
     },
     about: {
       title: 'Über mich',
-      description: 'Wer bin ich? Ich weiß es nicht.'
+      description: 'Wer bin ich? Ich weiß nicht.'
     }
   }
 };
