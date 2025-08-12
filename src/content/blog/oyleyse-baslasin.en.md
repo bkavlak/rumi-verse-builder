@@ -2,7 +2,7 @@
 id: "oyleyse-baslasin"
 title: "So Let It Begin!"
 excerpt: "So let it begin! Three… three… three… one or zero."
-date: "2025-08-12"
+date: "2025-08-18"
 tags: ["poiesis", "poem", "essay"]
 category: "poiesis"
 ---
