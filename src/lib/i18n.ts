@@ -39,7 +39,8 @@ export const translations = {
     },
     poiesis: {
       title: 'Poiesis',
-      description: 'It is to feel that you are truly alive.'
+      description: 'It is to feel that you are truly alive.',
+      publishedOn: 'Published on'
     },
     about: {
       title: 'About Me',
@@ -77,7 +78,8 @@ export const translations = {
     },
     poiesis: {
       title: 'Poiesis',
-      description: 'Yaşadığını hissetmektir.'
+      description: 'Yaşadığını hissetmektir.',
+      publishedOn: 'Yayın tarihi'
     },
     about: {
       title: 'Hakkımda',
@@ -115,7 +117,8 @@ export const translations = {
     },
     poiesis: {
       title: 'Poiesis',
-      description: 'Zu spüren, dass man lebt.'
+      description: 'Zu spüren, dass man lebt.',
+      publishedOn: 'Veröffentlicht am'
     },
     about: {
       title: 'Über mich',
