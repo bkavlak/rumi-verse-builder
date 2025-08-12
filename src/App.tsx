@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import Theoria from "./pages/Theoria";
 import Praxis from "./pages/Praxis";
 import Poiesis from "./pages/Poiesis";
+import PoiesisPost from "./pages/PoiesisPost";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 
@@ -26,6 +27,7 @@ const App = () => (
             <Route path="/theoria" element={<Theoria />} />
             <Route path="/praxis" element={<Praxis />} />
             <Route path="/poiesis" element={<Poiesis />} />
+            <Route path="/poiesis/:id" element={<PoiesisPost />} />
             <Route path="/about" element={<About />} />
             <Route path="*" element={<NotFound />} />
           </Routes>

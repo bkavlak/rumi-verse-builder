@@ -5,6 +5,7 @@ import { Badge } from '@/components/ui/badge';
 import { BlogPost } from '@/data/portfolio';
 import { useLanguage } from '@/hooks/useLanguage';
 import { Calendar, ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 interface BlogCardProps {
   post: BlogPost;
@@ -58,9 +59,11 @@ export const BlogCard = ({ post }: BlogCardProps) => {
           ))}
         </div>
 
-        <Button variant="outline" className="flex items-center gap-2 group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
-          {t('poiesis.readMore')}
-          <ArrowRight className="h-4 w-4" />
+        <Button asChild variant="outline" className="flex items-center gap-2 group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
+          <Link to={`/poiesis/${post.id}`} aria-label={`${t('poiesis.readMore')} - ${post.title[language]}`}>
+            {t('poiesis.readMore')}
+            <ArrowRight className="h-4 w-4" />
+          </Link>
         </Button>
       </CardContent>
     </Card>
