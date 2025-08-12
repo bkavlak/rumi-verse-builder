@@ -46,12 +46,12 @@ In this world—which, for those who know, is a symbol—
 nothing, the nothing that is the opposite of everything,
 does not stay as it is!
 
-Yes, yes, it does not stay; the asphalt poured so it would stay in place—
-does not stay.
+Yes, yes, it does not stay same; the asphalt poured so it would stay in place—
+does not stay in the place.
 The seven-year-old seated in order—
-does not stay.
-The nonsense bought from the shop window so it would stay—
-does not stay.
+does not stay ordered.
+Random nonsense stuff placed in the living room display cabinet—
+does not stay in place.
 
 This world, enclosed by a sky and somewhere in a void,
 some people go around firing off things like swings.
