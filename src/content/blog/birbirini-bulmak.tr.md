@@ -7,8 +7,6 @@ tags: ["poiesis", "şiir", "deneme"]
 category: "poiesis"
 ---
 
-BİRBİRİNİ BULMAK
-
 Benim gibi meyvelere çok rastlamadım.
 Mavi tohum izni dikkatli memurlar tarafından Balkanlarda imzalanmış
 ve yüzyıllar içinde bir dala sürüklenmiş olduğumu bilirim.
