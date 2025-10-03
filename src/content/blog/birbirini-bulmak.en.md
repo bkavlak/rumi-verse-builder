@@ -7,4 +7,4 @@ tags: ["poiesis", "poetry", "essay"]
 category: "poiesis"
 ---
 
-This work is not translated into this language yet. Please progress to Turkish.
+This work has not been translated into this language yet. Please progress to Turkish, stranger.
