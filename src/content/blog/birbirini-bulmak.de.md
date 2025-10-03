@@ -7,4 +7,4 @@ tags: ["poiesis", "Poesie", "Essay"]
 category: "poiesis"
 ---
 
-Dieses Werk ist noch nicht in diese Sprache übersetzt. Bitte wechseln Sie zu Türkisch.
+Dieses Werk ist noch nicht in diese Sprache übersetzt. Bitte wechseln Sie zu Türkisch, Fremder.
