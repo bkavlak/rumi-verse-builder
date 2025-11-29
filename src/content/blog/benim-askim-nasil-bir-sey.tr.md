@@ -7,8 +7,6 @@ tags: ["poiesis", "şiir"]
 category: "poiesis"
 ---
 
-Benim aşkım nasıl bir şey?
-
 İpince beyaz bir ip uzatırım
 Gördüğüm en uzaktaki buluta
 Tabi ki de bulutlu bir günde
@@ -49,4 +47,5 @@ Hıçkırıklar tarafından iyice bir dövülürüm.
 
 Kendime geldiğim zaman sis dağılmış, gitmiş bütün bulutlar, ip görünmeyecek kadar ince
 Bir bakış atarım ağaçlara, yeni bir ip bulur çekerim.
+
 Kendime doğru.
