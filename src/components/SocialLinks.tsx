@@ -1,5 +1,5 @@
 
-import { Github, Linkedin, Instagram, Youtube, Camera, AtSign } from 'lucide-react';
+import { Github, Linkedin, Instagram, Youtube, Camera, AtSign, Music } from 'lucide-react';
 
 interface SocialLinksProps {
   className?: string;
@@ -36,6 +36,11 @@ export const SocialLinks = ({ className = "" }: SocialLinksProps) => {
       name: 'Mastodon',
       url: 'https://en.osm.town/@rumijr',
       icon: AtSign
+    },
+    {
+      name: 'Suno',
+      url: 'https://suno.com/@rumijr',
+      icon: Music
     }
   ];
 
