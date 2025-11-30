@@ -1,5 +1,5 @@
 
-import { Github, Linkedin, Instagram, Youtube, Camera, AtSign, Music } from 'lucide-react';
+import { Github, Linkedin, Instagram, Youtube, Camera, AtSign, Music, Users } from 'lucide-react';
 
 interface SocialLinksProps {
   className?: string;
@@ -41,6 +41,11 @@ export const SocialLinks = ({ className = "" }: SocialLinksProps) => {
       name: 'Suno',
       url: 'https://suno.com/@rumijr',
       icon: Music
+    },
+    {
+      name: 'SC Capoeira',
+      url: 'https://sc-capoeira.de/de/',
+      icon: Users
     }
   ];
 
