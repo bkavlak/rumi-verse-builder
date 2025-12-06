@@ -1,5 +1,5 @@
 
-import { Instagram, Youtube, AtSign, Music } from 'lucide-react';
+import { Instagram, AtSign, Music } from 'lucide-react';
 
 interface SocialLinksProps {
   className?: string;
@@ -11,11 +11,6 @@ export const SocialLinks = ({ className = "" }: SocialLinksProps) => {
       name: 'Instagram',
       url: 'https://instagram.com/rumijr42',
       icon: Instagram
-    },
-    {
-      name: 'YouTube',
-      url: 'https://www.youtube.com/@batuhankavlakkendisi',
-      icon: Youtube
     },
     {
       name: 'Mastodon',
