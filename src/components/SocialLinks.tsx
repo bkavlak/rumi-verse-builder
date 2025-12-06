@@ -41,18 +41,13 @@ export const SocialLinks = ({ className = "" }: SocialLinksProps) => {
     },
     {
       name: 'Instagram',
-      url: 'https://instagram.com/batuhankavlakkendisi',
+      url: 'https://instagram.com/rumijr42',
       icon: Instagram
     },
     {
       name: 'YouTube',
       url: 'https://www.youtube.com/@batuhankavlakkendisi',
       icon: Youtube
-    },
-    {
-      name: 'Pixelfed',
-      url: 'https://pixelfed.social/bkavlak',
-      icon: Camera
     },
     {
       name: 'Mastodon',
